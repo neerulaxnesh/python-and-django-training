@@ -1,7 +1,5 @@
 def palindrome(x) :
-    global rev
-    rem=0
-    rev=0
+     global rev=0
     while (x>0) :
         rem = x%10
         rev = (rev*10) + rem
